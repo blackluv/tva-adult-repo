@@ -46,26 +46,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.woodrocket" name="Wood Rocket" version="0.5" provider-name="ptom">
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Wood Rocket</summary>
-		<description lang="en">Pulling all the best porn from WoodRocket.com</description>
-        <news>Wood Rocket v0.4 (19th February 2017
-         - Resolved playback issues
-         - Added Newest Parodies and Newest Shows to menu</news>
-		<platform>all</platform>
-		<language>en</language>
-		<email>ptom98@gmail.com</email>
-        <news>
-        v0.5 26/05/2017
-        - Fixed issues after website got updated
-        </news>
-	</extension>
-</addon>
-
 <addon id="plugin.video.javstream" name="JAVStream" version="0.93.4" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -89,20 +69,6 @@ JAVStream V0.93.4 (3rd March 2018)
 		<language>en</language>
 		<email>ptom98@gmail.com</email>
 	</extension>
-</addon>
-
-<addon id="plugin.video.xhamstergay" name="xHamster Gay" version="0.2" provider-name="xbmc-adult">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Free Gays Porn Videos</summary>
-        <description lang="en">Free Gays Porn Videos from xhamster.com</description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="plugin.video.uwc"
@@ -138,28 +104,6 @@ Fixed: PornsLand channels pagination
 Fixed: Porndig
 Fixed: YourPorn top pornstars
 Fixed: deleting keywords</news>
-    </extension>
-</addon>
-
-<addon id="plugin.video.fistsofury" name="[COLOR white]Fists-O-Fury[/COLOR]" version="1.6" provider-name="[COLOR purple]Megatron[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Fists-O-Fury</summary>
-    <description lang="en">Easy to install and easy to clean up ![CR][CR]Big thanks to developers of the repos/addons included[CR][CR]Thanks [COLOR red]@4yoursak[/COLOR] for graphics</description>
-    <disclaimer>[COLOR yellow]Kodi will close and need to be restarted after wipe finishes[/COLOR]</disclaimer>
-    <platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.png</screenshot>
-			<screenshot>resources/screenshot-02.png</screenshot>
-			<screenshot>resources/screenshot-03.png</screenshot>
-		</assets>
     </extension>
 </addon>
 
@@ -205,51 +149,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <description lang="en">Download XXX Movie information from adult.cduniverse.com</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="script.module.python.koding.aio"
-   name="Python Koding AIO"
-   version="1.0"
-   provider-name="Total Revolution">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver" version="1.2.0"/>
-    <import addon="script.module.requests" version="2.3.0"/>
-    <import addon="script.module.beautifulsoup" version="2.1.31"/>
-    <import addon="script.module.unidecode" version="0.4.16"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Python Koding All In One</summary>
-    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <license>Creative Commons 4.0-NC-ND</license>
-    <forum>http://totalrevolution.tv/forum</forum>
-    <website>http://totalrevolution.tv</website>
-    <news>1.0 Stable release</news>
-    <source>https://github.com/totalrevolution/python-koding/tree/master/script.module.python.koding.aio</source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.you.jizz"
-       name="YouJizz.com"
-       version="1.0.22"
-       provider-name="xbmc-adult">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>GPL 2.0</license>
-        <summary lang="en">YouJizz.com</summary>
-        <description lang="en">****ADULT CONTENT***** Watch erotic and sexy videos from YouJizz.com</description>
-    </extension>
 </addon>
 
 <addon id="plugin.video.efukt" name="EFUKT" version="0.3" provider-name="ptom">
@@ -411,21 +310,6 @@ adulthideout@yandex.com[/COLOR]
     </extension>
 </addon>
 
-<addon id="plugin.video.tube8" name="Tube8" version="2.1.12" provider-name="xbmc-adult">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Stream adult videos from tube8.com</summary>
-        <description>Tube8.com features a variety of adult videos. This addon contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon.  All content is hosted by tube8.com.</description>
-        <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="metadata.movie.aebn.gay.net"
        name="AEBN Gay"
        version="1.2.4"
@@ -482,24 +366,6 @@ adulthideout@yandex.com[/COLOR]
 	</extension>
 </addon>
 
-<addon id="plugin.video.lubetube"
-       name="Lubetube (Adult)"
-       version="1.19"
-       provider-name="xbmc-adult">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</summary>
-    <description>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.adultflix"
 	     name="AdultFlix"
 	     version="1.0.0"
@@ -551,46 +417,6 @@ Scraped sources include: chaturbate, collectionsofbestporn, daftporn, drtuber, e
 		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="plugin.video.mcadult" name="Man Cave XXX" version="1.0" provider-name="Man Cave">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
-        <!--<import addon="script.module.urlresolver" />-->
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Adult Movies and Vids</summary>
-        <description lang="en">18+ Porn Adult XXX.</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-    </extension>
-</addon>
-
-<addon id="plugin.video.youporngay" name="Youporn Gay" version="0.3" provider-name="xbmc-adult">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Free Gay Porn Movies from youporn.com</summary>
-        <description lang="en">VISIT Youporn for the BEST GAY PORN MOVIES! GET the sexiest TEEN BOYS Tube and ENJOY Huge Cock Sucking VIDEOS. CLICK NOW to WATCH Hot YOUNG XXX Gay Vidz!</description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="metadata.movie.hotmovies.com"
