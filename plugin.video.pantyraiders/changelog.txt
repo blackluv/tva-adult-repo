@@ -1,0 +1,10 @@
+v1.4.4
+Fixed
+-YouJizz
+-PornHub
+-Redtube
+-WatchMyGF
+
+Removed
+-SpankWire = cant get video links to play in kodi
+-Pluseone8 = cant get video links to play in kodi

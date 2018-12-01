@@ -1,0 +1,39 @@
+[B]2.1.12[/B]
+
+- Fix video listing
+- Search still broken
+
+[B]2.1.11[/B]
+
+- Fix categories
+- Search still broken
+
+[B]2.1.10[/B]
+
+- Get rid of "CreateLoader - unsupported protocol(plugin)" warnings
+
+[B]2.1.9[/B]
+
+- Fix video listing
+
+[B]2.1.8[/B]
+
+- Fix video playing - videos no longer encrypted
+
+[B]2.1.7[/B]
+
+- Fix category listing
+- Fix video listing
+
+[B]2.1.6[/B]
+
+- Fix category listing
+
+[B]2.1.5[/B]
+
+- Fix url for some videos which were failing
+
+[B]2.1.3[/B]
+
+- Update python api version for Gotham
+

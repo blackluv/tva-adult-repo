@@ -1,0 +1,4 @@
+Version: 1.0.0
+
+--- Forked from XXX-O-DUS v3.00.030 (Respect to Echo Coder)
+--- Migrated to ResolveURL (Powered by jsergio123)

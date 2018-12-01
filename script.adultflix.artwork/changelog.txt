@@ -1,0 +1,4 @@
+Version: 1.0.0
+
+--- Forked from XXX-O-DUS Artwork 1.00.019 (Respect to Echo Coder)
+--- Thank you to jokstergfx for the awesome graphics

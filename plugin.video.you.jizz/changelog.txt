@@ -1,0 +1,70 @@
+1.0.22
+ - Fixed video listing
+
+1.0.21
+ - Removed use of zip
+
+1.0.20
+ - Fixed content URL
+ - Fixed thumb URL
+
+1.0.19
+ - Fixed video URL
+ - Fixed thumb URL
+
+1.0.18
+ - Fixed Next
+ - Fixed video URL for search results
+ - Fixed thumb URL for search results
+
+1.0.17
+ - Fixed video URL
+ - Fixed video thumb
+
+1.0.16
+ - Fixed video URL
+
+1.0.15
+ - Merged commit with fixes for duration and duplicate entries
+
+1.0.14
+ - Fixed list URL
+
+1.0.13
+ - Fixed video URL
+
+1.0.12
+ - Fixed video regex
+ - Cleaned up style and removed dead code
+ - Added logging
+
+1.0.11
+ - Get rid of "CreateLoader - unsupported protocol(plugin)" warnings
+
+1.0.10
+ - Fixed video url
+
+1.0.6
+ - Fix handling of videos that have different bitrates in a playlist
+ - Cleaned code
+
+1.0.5
+ - Removed duplicate search and home entries
+ - Fixed video listing
+
+1.0.4
+ - Fixed thumbnail url
+ - Fixed video url
+ - Cleaned code
+
+1.0.3
+ - (anarchintosh) changed play code to flatten extra step, updated icon
+
+1.0.2
+ - (anarchintosh) added icon
+
+1.0.1
+  - Converted plugin to work with XBMC's new addon framework (by philw132)
+
+1.0.0
+  - Initial release

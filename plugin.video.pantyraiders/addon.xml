@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.pantyraiders" name="Panty Raiders" version="1.4.4" provider-name="The Perverted">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+    <import addon="script.module.simple.downloader" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.web-pdb" />
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" />
+    <import addon="script.module.metahandler" />
+    <import addon="script.module.liveresolver" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">18+ Adult only addon</summary>
+	<description lang="en">No content is hosted by the addon creators</description>
+	<disclaimer lang="en">No content is hosted by the addon creators</disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>

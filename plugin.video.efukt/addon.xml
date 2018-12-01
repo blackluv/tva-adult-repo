@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.efukt" name="EFUKT" version="0.3" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">EFUKT</summary>
+		<description lang="en">EFUKT</description>
+        <news>EFUKT</news>
+        <forum>none yet</forum>
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+        <news>EFukt v0.3 (08th May 2017)
+- Fixed playback issues
+        </news>
+	</extension>
+</addon>

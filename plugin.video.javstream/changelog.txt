@@ -1,0 +1,359 @@
+-----------------------------------
+JAVStream V0.93.4 (3rd March 2018)
+-----------------------------------
+- Moved over to ResolverURL to fix playback issues
+
+-----------------------------------
+JAVStream V0.93.3 (8th October 2017)
+-----------------------------------
+- Fixed issue when multiple sources found on one page
+- Fixed auto playback issue
+
+-----------------------------------
+JAVStream V0.93.2 (30th August 2017)
+-----------------------------------
+- Added new search feature
+- Added Sources: asian51
+- Removed unnecessary debug code
+- Fixed issue that stopped addon running on Kodi 16
+
+-----------------------------------
+JAVStream V0.93.1 (23rd August 2017)
+-----------------------------------
+- Labeled ReadDebrid sources
+- Gave the ability to custom colour premium links for easy seeing
+- Fixed SSL error on older android version of Kodi
+
+-----------------------------------
+JAVStream V0.93 (19th August 2017)
+-----------------------------------
+- Added RealDebrid support
+- Added ability to show/hide nonfunctioning RealDebrid sources
+- Added playback for vidoza, extmatrix
+- Added Sources: NoLimitsVideo, JavFastOnline, JavAVIdol, d9dm, JavSubtitle, Avgle, JAVLibrary, Free JAV Share, JAVArchive, 51Jav, JAVGuru, GravureTube, GoJAV, JavIP, JAV18.tv 
+- Replaced javbest.co with javbest.net
+- Fixed issues with jpidols
+- Moved tranlation to Google
+- Allowed for custom proxies
+- Removed: jav18.org, dinojav, jav-stream, ytbsexclub, doojav69, freejav, javavidol, yebbun90, tubebo, dodova, javstreamclub
+
+-----------------------------------
+JAVStream v0.92.3(31st October 2016)
+-----------------------------------
+- Fixed issue so status dialog reflects the correct amount of sites processed
+- Fixed issue stopping JAVHDFree, Jav-Stream, StreamJavPorn, JPIdols, StreamingJAV displaying results
+- Fixed bug which caused infinite loop if canceling a search
+- Fixed bug that stopped search results showing if term had already been searched for
+- Fixed bug that stopped sources list showing for some videos
+- Fixed issue from JAV4K from displaying results in search
+- Fixed Flashx playback (still needs 100%)
+- Fixed Kodi17 bug that would cause Source Search dialog to appear again over the playing video
+- Fixed error which caused translation to crash when over quota
+- Rewrote uncensored code for all providers to display more results
+- Rewrote video sources to be ordered by qualtiy first 
+- Added Xonline, FreeJav, Javocado, Popjav, Jav18, JAVUS, JAVGo, GAIMUP
+- Added support for BigFile, vidto.me, RapidVideo, qwertycdn playback
+- Up'd default timeout from 10 seconds to 20 seconds
+- Removed EroPoi, JAV69, JavShow, IkuJAV, JAVStream365, JAVWest, JavZab, Korean720, PhimSexJav, Terlarng, YouJAV
+- Temprarily taken off JavPortal, fix in next update
+- Added additional tags into the addon.xml
+
+-----------------------------------
+JAVStream v0.92(3rd October 2016)
+-----------------------------------
+- Updated logo and graphics within the app
+- Added kodi library intergration
+- Added favourites option
+- Added ability to reset favourites and search database within settings
+- Moved OpenLoad playback over to urlresolver addon to reduce maintainance
+- Removed megavideo
+
+-----------------------------------
+JAVStream v0.91.91(26th September 2016)
+-----------------------------------
+- Fixed WuShare Login Issue
+
+-----------------------------------
+JAVStream v0.91.9(22nd September 2016)
+-----------------------------------
+- Fixed config issues
+
+-----------------------------------
+JAVStream v0.91.8(21th September 2016)
+-----------------------------------
+- Recoded threaded search
+- Fixed OpenLoad
+- Adedd JavStreamClub
+
+-----------------------------------
+JAVStream v0.91.7(16th September 2016)
+-----------------------------------
+- Removed WuShare login requirement for searching
+- Fixed WuShare download issue
+- Fixed regular expression that was finding false positives with google videos
+- Fixed OpenLoad playback issue
+- Removed unnessary debugging code
+- Added ability to handle atom feeds
+- Added idolportal, planetjav, ytbsexclub, streamjavporn, javcuteonline, jav-720p, koleksijav
+
+-----------------------------------
+JAVStream v0.91.6(14th September 2016)
+-----------------------------------
+- Fixed WuShare login issues
+
+-----------------------------------
+JAVStream v0.91.5(14th September 2016)
+-----------------------------------
+- Fixed OpenLoad issues
+
+-----------------------------------
+JAVStream v0.91.4(13th September 2016)
+-----------------------------------
+- Fixed Google playback issues (work still needs doing)
+- Fixed OpenLoad playback issues
+- Fixed issue with javstreams.com
+- Added 9xxx, javtubehd, youjav
+
+-----------------------------------
+JAVStream v0.91.3(10th August 2016)
+-----------------------------------
+
+- Added javleak.com
+- Fixed OpenLoad playback issues
+- Fixed issue where GravureGirls was showing as JavBest
+
+-----------------------------------
+JAVStream v0.91.2(2nd August 2016)
+-----------------------------------
+
+- Fixed OpenLoad playback issues
+
+-----------------------------------
+JAVStream v0.91.1(29th July 2016)
+-----------------------------------
+
+- Fixed repo install problem
+
+-----------------------------------
+JAVStream v0.91(29th July 2016)
+-----------------------------------
+
+- Removed broken code for nungav.com
+- Added support for Premium Sharing WuShare, added configd screen and enabled SD, HD and downloading from links
+
+-----------------------------------
+JAVStream v0.90.77(26th July 2016)
+-----------------------------------
+
+- Updated to allow for new URL from openload oload.co
+
+-----------------------------------
+JAVStream v0.90.76(25th July 2016)
+-----------------------------------
+
+- Correctly set media type to video, should allow more views available when viewing DVD covers
+- Added HJAV5278, Tubebo, JavPortal, FreePornXXX, JavBest, GravureGirlz 
+
+-----------------------------------
+JAVStream v0.90.75(29th June 2016)
+-----------------------------------
+
+- Fixed OpenLoad playback issues
+
+-----------------------------------
+JAVStream v0.90.74(21st June 2016)
+-----------------------------------
+
+- Alphabeticalized all JAV streaming sites for ease of use
+- Fixed issue detecting certain GoogleVideo content
+- Added option to allow OpenLoad playback via official API, hopefully a temp fix for future pigeon issues
+- Fixed issue that was causing downloads to fail
+- Added jpav.site
+- Added javportal.net
+
+-----------------------------------
+JAVStream v0.90.73 (18th June 2016)
+-----------------------------------
+
+- Fixed issue with autoplay
+- Fixed javeu.com url detection bug
+- Fixed top1porn.com url detection bug
+- Added some basic version tracking
+
+-----------------------------------
+JAVStream v0.90.72 (14th June 2016)
+-----------------------------------
+
+- Fixed openload playback issues
+- Made Web Page Timeout and editable settings in the config
+- Added javl.com
+
+-----------------------------------
+JAVStream v0.90.71 (9th June 2016)
+-----------------------------------
+
+- Fixed issue causing selected videos to return with a zero query
+
+-----------------------------------
+JAVStream v0.90.7(9th June 2016)
+-----------------------------------
+
+- Removed dependencies
+- Rewrote code for a bit extra speed
+- Added a 10 second response timeout when fetching URLs
+- Fixed issues with top1porn
+- Fixed javeu.com bug
+- Fixed OpenLoad hotlink error
+
+-----------------------------------
+JAVStream v0.90.6(27nd May 2016)
+-----------------------------------
+
+- Added setting option to manually change video view
+- Added contect menu to allow current view to become the default view
+
+-----------------------------------
+JAVStream v0.90.5(22nd May 2016)
+-----------------------------------
+
+- Add a proxy for Javpop to get around ISPs blocking it
+- Tidied some debug code left in by mistake
+
+-----------------------------------
+JAVStream v0.90.4(22nd May 2016)
+-----------------------------------
+
+- Fixed issue which stopping saved searching and translations from working
+
+-----------------------------------
+JAVStream v0.90.3(22nd May 2016)
+-----------------------------------
+
+- Fixed issue which stopped database from being created
+
+-----------------------------------
+JAVStream v0.90.2(22nd May 2016)
+-----------------------------------
+
+- Fixed spelling mistake on DooJav69
+
+-----------------------------------
+JAVStream v0.90.1(22nd May 2016)
+-----------------------------------
+
+- Added threaded search to help speed things up
+- Added ability to save and delete search terms
+- Fixed streamin playback
+- Rewrote translation so as to use less Bing character uses
+- Added DoJav69
+
+-----------------------------------
+JAVStream v0.9(4th May 2016)
+-----------------------------------
+
+- Added YouPornJav, JavShow, EroPoi, Jav720p, Korean720, JavStreams, JavTV, JavStream365, JavABC, JavHDVideo, JavSex and JPIdols to sites searched
+- Added configuration for Uncensored, Censored, Gravure and Global Search
+- Added a download features
+- Added auto play
+- Fixed Next button image
+- Fixed VideoWood playback
+
+-----------------------------------
+JAVStream v0.8.6(26th March 2016)
+-----------------------------------
+
+- Fixed issue with playback from javeu.com
+
+-----------------------------------
+JAVStream v0.8.5(7th March 2016)
+-----------------------------------
+
+- Fixed another naming issue which stopped some films getting found
+- Fixed issues with OpenLoad and VideoWood playback
+
+-----------------------------------
+JAVStream v0.8.4(2st March 2016)
+-----------------------------------
+
+- Fixed naming issue which stopped some films getting found
+- Added JavEU and Yebbun90 to sites searched
+
+-----------------------------------
+JAVStream v0.8.3(1st March 2016)
+-----------------------------------
+
+- Fixed OpenLoad, VideMega and flashx playback issues
+
+-----------------------------------
+JAVStream v0.8 (15th February 2016)
+-----------------------------------
+
+- Rewrote core functionality
+- Rewrote to work with BeautifulSoup
+- Rewrote translation to use Bing and not Google Translate
+- Added menu icons
+- Added settings screen
+- Using JavPOP as indexer
+- Added new sources: sexloadng, ivhunter, javhdonline, watchjavonline, javlinks, dodova, hentaidream, jav69, streamingjav, phimsexjav, javwest, dinojav, top1porn, jav-stream, javseen, ikujav, javst, javlabels, terlarang, jav4k, javhub, javonlines
+- Added Captcha functionality
+- Added OpenLoad error checking
+- Added alternative video loading for OpenLoad if API fails
+
+-----------------------------------
+JAVStream v0.72.6 (25 September 2015)
+-----------------------------------
+
+- Quick fix to resolve issues with VideoWood streaming playback
+
+-----------------------------------
+JAVStream v0.72.5 (24 September 2015)
+-----------------------------------
+
+- Fixed issue which would cause Source Selection screen to crash with some videos
+
+-----------------------------------
+JAVStream v0.72.4 (19 September 2015)
+-----------------------------------
+
+- Fixed coding bug introduced in 0.72.2
+- Added 'Broken' label to known broken sources within the addon
+- Added additional page to allow selection of source rather than just auto playing from first source
+- Added some additional debug alerts for OpenLoad videos
+
+-----------------------------------
+JAVStream v0.72.3 (18 September 2015)
+-----------------------------------
+
+- Fixed coding bug introduced in 0.72.2
+
+-----------------------------------
+JAVStream v0.72.2 (18 September 2015)
+-----------------------------------
+
+- OpenLoad videos adding, meaning a lot of the Gravure videos will now play again
+
+-----------------------------------
+JAVStream v0.72.1 (08 September 2015)
+-----------------------------------
+
+- Disable OpenLoad videos and enabled VideoMega links, so that some videos play. Will add OpenLoad back in for the next update
+
+-----------------------------------
+JAVStream v0.72 (08 September 2015)
+-----------------------------------
+
+- Fixed OpenLoad error issues (thnxs to mortael @WhiteCream)
+
+-----------------------------------
+JAVStream v0.71 (24 July 2015)
+-----------------------------------
+
+- Fixed Search functionality
+- Add specific JAV and Gravure Search features
+
+-----------------------------------
+JAVStream v0.7 (24 July 2015)
+-----------------------------------
+
+- Completely rewritten from the ground up. Splits JAV and Gravure into their own sections
+- Added new sources

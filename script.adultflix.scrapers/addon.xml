@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.adultflix.scrapers" name="AdultFlix Scrapers" version="1.0.0" provider-name="TV ADDONS">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Scrapers for use in AdultFlix</summary>
+	</extension>
+</addon>

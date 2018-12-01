@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.woodrocket" name="Wood Rocket" version="0.5" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Wood Rocket</summary>
+		<description lang="en">Pulling all the best porn from WoodRocket.com</description>
+        <news>Wood Rocket v0.4 (19th February 2017
+         - Resolved playback issues
+         - Added Newest Parodies and Newest Shows to menu</news>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+        <news>
+        v0.5 26/05/2017
+        - Fixed issues after website got updated
+        </news>
+	</extension>
+</addon>

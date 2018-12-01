@@ -1,0 +1,48 @@
+[B]1.19[/B]
+
+- Switch to https to fix urls and categories.
+
+[B]1.18[/B]
+
+- Don't try to play all URLs only try the first one
+
+[B]1.17[/B]
+
+- Get rid of "CreateLoader - unsupported protocol(plugin)" warnings
+
+[B]1.16[/B]
+
+- Fix category listing
+
+[B]1.15[/B]
+
+- Fix videos
+
+[B]1.13[/B]
+
+- Update python api version for Gotham
+
+[B]1.11[/B]
+
+- Read categories from landing page so that they are always up to date
+- Add Next button
+
+[B]1.10[/B]
+
+- Code cleanup
+
+[B]1.9[/B]
+
+- Add length of each clip in the video listing
+
+[B]1.8[/B]
+
+- Fixed URL
+
+[B]1.7[/B]
+
+- Added an icon
+
+[B]1.6[/B]
+
+- First Add-on version

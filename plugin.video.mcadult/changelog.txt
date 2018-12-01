@@ -1,0 +1,56 @@
+v1.7
+    - root_xml_url in settings.xml now supports file://, http://, and base64 encoded strings
+    - message_xml_url moved from news_window.py to the settings.xml file.
+    - Added support for developer to choose urlresolver or resolveurl as their primary resolver
+        - To switch from resolveurl to urlresolver, comment out the resolveurl link in addon.xml
+            and uncomment the line for urlresolver
+        - This only impacts Direct Links, as dependencies used may still use only resolveurl
+    - Fixed missing Exception raised in tvdb api base. (Bugatsinho)
+    - Updated addon.xml for Kodi 18 support - Backwards compatible with 17 (Bugatsinho)
+        Add this to the metadata section: <reuselanguageinvoker>false</reuselanguageinvoker>
+    - Update to hook running msg for when initiating Clear Cache in debug log.
+    - Update to clear cache in Trakt, TMDB plugins
+
+v1.6
+    - Settings.xml updated for service settings
+    - New service.py - be sure to read the header
+    - Updated Readme.html
+    - Updated version of Tools plugin
+    - Added YT API Plugin
+
+v1.5
+    - Updates to addon.xml
+        - Description updated
+        - Disclaimer updated
+        - Provider updated
+    - Added dom_parser utils module
+    - Moved the following to settings.xml
+        - lastfm_api_key
+        - lastfm_secret
+        - message_xml_url
+        - root_xml
+        - search_db_location
+        - tmdb_api_key
+        - trakt_api_client_id
+        - trakt_api_client_secret
+        - tvdb_api_key
+    - Added youtu.be and embed url support to sources::youtube_resolve
+    - Created working service.py so you can update API keys and root xml
+        Read service.py header for details
+
+v1.4
+    - Updated settings.xml
+    - Updated strings.po
+    - Updated networks.xml and fixed genre_tv.xml
+
+v1.1
+    - Based on bob 1.0.12
+    - Added "plugin" system, see plugin.py
+    - Added most strings to strings.po
+    - Added hebrew translation (thanks Eng2Heb)
+    - Added Search and Search db generation script
+    - Loads of bugfixes
+
+v1.0
+    - Release 1.0.0 initial release
+    - based on bob 1.0.1

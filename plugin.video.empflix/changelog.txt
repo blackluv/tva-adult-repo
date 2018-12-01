@@ -1,0 +1,33 @@
+[B]2.0.12[/B]
+
+Fix video url
+Fix categories
+
+[B]2.0.10[/B]
+
+Fix video url
+
+[B]2.0.9[/B]
+
+Fix video url
+
+[B]2.0.8[/B]
+
+Speed up video play
+
+[B]2.0.7[/B]
+
+Fix thumbnails
+Fix video url regex
+
+[B]2.0.6[/B]
+
+Fix video url regex
+
+[B]2.0.4[/B]
+
+Bump python version for Gotham
+
+[B]2.0.0[/B]
+
+First Add-on version
