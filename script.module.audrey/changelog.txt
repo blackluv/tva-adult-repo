@@ -1,0 +1,27 @@
+v1.1.7 - 27/06/2018
+- various bug fixes
+- fixed "urlresolver":"False" issue
+
+v1.1.6 - 26/06/2018
+- fixed issue with multiple sources and spciific source file playback
+
+v1.1.5 - 26/06/2018
+- added ability to include python in links by wrapping it in {{ code goes here }}
+
+v1.1.4 - 10/06/2018
+- fixed issue with multi leveled next pages
+
+v1.0.6 - 24/02/2018
+- fixed incorrect variable name
+
+v1.0.5 - 15/02/2018
+- removed debugging code
+- added YouTube age verification notification
+
+v1.0.4 - 15/02/2018
+- text correction
+
+v1.0.3 - 15/02/2018
+- removed 80s move and replaced with Troma
+- scans both video files and urlresolver 
+- added multi source screen, auto play first video and auto play specified video in list

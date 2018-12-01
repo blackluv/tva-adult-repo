@@ -1,0 +1,386 @@
+v.1.0:
+- Stable release, only bug reported in past few months was custom fanart not showing for the Add_Dir funtion so this has now been fixed.
+- Cleaned up some old unused strings.
+
+v.0.9.9.4.3:
+- Added options to include icon and fanart into the Custom_Dialog function.
+- Added new Merge_Dicts function to merge multiple dictionaries together.
+- Fixed bug with Create_Paths function.
+- Added List_From_Dict function, just a simple function which returns a list of either the keys or values found in a dictionary.
+- Edited the Addon_Genre function, the values were set as keys and vice versa. Value is now the add-on ID and the key is the add-on name.
+
+v.0.9.9.4.2:
+- Added Requirements function support for AFTV and other non-rooted devices
+
+v.0.9.9.4.1:
+- Small cleanup getting ready for future features
+
+v.0.9.9.4:
+- Added ability to send through a custom resolver for Play_Video()
+- Added a try/except for dolog so it will silently fail if wrong params are sent through and print the relevant error message to the log.
+
+v.0.9.9.3.4:
+- Added unidecode import for future use
+- Added some mac bootcamp support
+
+v.0.9.9.3.3:
+- Fixed bad indentation in addon.xml
+
+v.0.9.9.3.2:
+- Added extra security checks in Move_Tree, esp. for OE/LE devices.
+
+v.0.9.9.3.1:
+- Bug fix with Move_Tree, some platforms it was corrupting files on move
+
+v.0.9.9.3:
+- Bug fix with adult enable
+- Move_Tree can now accept special paths.
+
+v.0.9.9.2:
+- Tidied up the README file, now matches what's in the add-on and every function has been tested
+- Fixed some example code
+
+v.0.9.9.1.4:
+- Added Physical_Path function which will return a correct special path even with Windows Store versions of Kodi
+- Fixed a number of modules so it's Win10 (Windows Store version) friendly
+- Improved the Create_Paths function so it can now take the special:// path
+- Fixed some bugs with Data_Type being referenced in the wrong module
+- Fixed small bug in xml function
+- Changed the default proxy url for the Link_Tester function (old one now uses CF)
+- Changed most os functions to xbmcvfs accross all modules
+- Removed Grab_Params and Populate_List functions, no longer used
+- Cleaned up all old features no longer used in init.py
+- Cleaned up the README.txt
+- Added new contact info to the headers of all py files
+
+v.0.9.9.1.2:
+- Added Remove_Formatting() function, this can remove any color, bold and italic tags as well as removing any preceding characters such as spaces, dots and dashes
+
+v.0.9.9.1.1:
+- Removed excessive logging in addons.py
+
+v.0.9.9.1:
+- Fixed the dolog function, now showing correct file and line numbers
+- Added xml function which will allow for creation/editing of completely new and separate settings.xml files for your add-ons. All credit goes to OptimusGreen for this code.
+- Edited tutorials section so it also picks up classes as well as functions.
+
+v.0.9.9.0:
+- Added compatibility for Windows 10 on creating paths
+
+v.0.9.8.9:
+- Removed debugging info in sleep functions.
+
+v.0.9.8.8:
+- Added check on web based functions, attempt to auto change url's to http instead of https if Python version is lower than 2.7
+- Added new option to dolog function which can show line number and file where the dolog command was called from. Thanks to OptimusGreen for the suggestion and line number code.
+- Removed some unnecessary logging from the Add_Dir command.
+
+v.0.9.8.7:
+- Added new Python_Version function to return current running version of Python
+- Added beautifulsoup to addon.xml as dependency
+
+v.0.9.8.6:
+- Improved Fresh_Install function, now multi-platform and can add paths/addons to ignore
+- Fixed the Delete_Folders function, was removing sub-folders from items in ignore list
+
+v.0.9.8.4:
+- Re-done the Compress function as shutil.make_archive doesn't work on python 2.6 so now using tarfile and zipfile.
+
+v.0.9.8.3:
+- Added option to browse into zips when using Browse_To_File, default is False
+- Fixed the update spinner in Update Screen, wasn't able to disable
+- Fixed alignment of text in Update Screen, was showing oddly on some skins
+
+v.0.9.8.2:
+- Edited update_screen alignment for text
+
+v.0.9.8.1:
+- Edited adult toggle to use safe mode and toggle all at once rather than one by one
+- Adult_Toggle now requires an update_status to be sent through, if nothing sent through the default status will be set to auto-update once function is complete.
+
+v.0.9.8.0:
+- Browse_To_Folder no longer shows contents of archives
+
+v.0.9.7.9:
+- Removed dolog import from video.py as was causing problems
+- Fixed profile_path in database.py
+
+v.0.9.7.8:
+- Added Reset_Percent function
+- Fixed bug in database module, Addon ID was not being called correctly.
+- Added extra debugging notifications for add-on install
+- Disable/enable auto add-on updates in add-on install at start/end
+
+v.0.9.7.7:
+- Added timeout checker for Download function, especially useful on older installs which do not support SSL as it was previously waiting 30s before finally giving up.
+
+v.0.9.7.6:
+- Added Update_Screen function
+- Improved Update_Progress function
+
+v.0.9.7.5:
+- Added Update_Progress function for setting percentage of items currently processed as a skin string and also allows for any properties to be set at the same time.
+
+v.0.9.7.4:
+- Removed unquote from routing function as it was messing up the final var received
+- Re-work of how Toggle_Addons and Dependency_Check work, should be far more optimised now as when toggling add-ons it enables each dependency one at a time starting with the dependencies with no sub-dependencies and moving on up through the list progressively.
+
+v.0.9.7.3:
+- Another bug fix for routing unquoting issue
+- Added ability to pass through a skip_list in Addon_Service
+- Removed service toggle in Addon_Toggle, was causing problems
+
+v.0.9.7.2:
+- fix unquoting issue (midraal)
+
+v.0.9.7.1:
+- Added Disable/Enable services to Addon_Toggle
+
+v.0.9.7.0:
+- Added new Addon_Service funtion to show all addons running as service and also has the ability to disable/enable them. This only comments out the lines in the addon.xml, if they are already running as a service they will not be disabled until the next profile load. Similarly if enabled they will require a profile load for changes to take effect.
+- Fixed bug with Toggle_Addons - was trying to import a dependency from a path which no longer exists
+
+v.0.9.6.9.9:
+- Fixed bug with Addon_Genre not deleting old failed temp files
+
+v.0.9.6.9.8:
+- Fixed bug with dependency check, wasn't showing all recursive deps
+
+v.0.9.6.9.7:
+- Added Link_Tester function, returns whether or not a link is locked to users IP
+- Added fix for Play_Video so it doesn't close dp if ignore_dp is set to True.
+
+v.0.9.6.9.6:
+- Added Last_Played function to return the real url of the last played item
+- Updated Addon_Genre, now fully unlocked and working for all developers to hook into.
+
+v.0.9.6.9.5:
+- Added Last_Played function to return the real url of the last played item
+- Added new Split_List function for creating new lists out of elements of another
+- Added new Table_Convert function, this will allow you to pull data from a html
+page conaining a table and convert into a list of dictionaries with your own custom keys.
+- Updated Addon_Genre, now fully unlocked and working for all developers to hook into.
+- Updated Open_URL so it can now take send a request via a proxy
+
+v.0.9.6.9.4:
+- Changed Add_Dir and route function so it auto converts physical paths into special paths when sending through any urls or creating routes. These are then auto converted back once returned to the function. This means all paths will work when using community shared content - no need for manually editing special paths.
+
+v.0.9.6.9.3:
+- Added new functionality to Convert_Special, can now set string to True and it will replace any instances of physical paths to special in the string which was sent through.
+
+v.0.9.6.9.2:
+- IMPORTANT FOR DEVS: Moved some functions around in preparation for upcoming stable 1.0 release. A new module has been created called vartools, all variable/string related functions can now be found in here as we seem to be accumilating rather a lof of these new functions!
+- Added new Fuzzy_Search function which searches for similar matches to a string
+- Fixed Open_Settings, wasn't opening into custom addon id's settings.
+- Changed the return of Keyboard, was returning as unicode.
+- Re-done some of the live example code with better dialogs and wording.
+- Re-formatted the README to reflect new changes.
+
+v.0.9.6.9.1:
+- Removed auto resolving of m3u in Play_Video as it was causing bugs in some links
+
+v.0.9.6.9:
+- New M3U_Selector function for playing m3u/m3u8 playlists
+- Added new Parse_XML function
+- Added button colour options for Custom_Dialog function
+- Added midraals new code in check_playback which hopefully should get rid of the dialog appearing on top of playback on some systems.
+
+v.0.9.6.8:
+- Added Decode_String function to clean up unicode chars
+- Updated the readme info, had outdated info for Custom_Dialog
+
+v.0.9.6.7:
+- New Custom_Dialog function allowing for multiple buttons and custom size dialogs
+- Add_Dir now automatically converts dictionary items for multiple urls
+
+v.0.9.6.6:
+- Allow for metadata to be passed through to Play_Video (as a dictionary)
+- Fixed typo in Play_Video when sending through an item param
+- Added some missing functions in README.
+
+v.0.9.6.5:
+- Fixed Check_Repos, was a bug if scanning full paths
+
+v.0.9.6.4.2:
+- Added a timeout to Validate_Link function
+- Validate_Link will now return False if https cannot be accessed
+- Check_Repos now returns False if https being used on Python 2.6
+
+v.0.9.6.4.1:
+- Fixed indentation in toggle_addons
+
+v.0.9.6.4:
+- Still a bug with toggle_addons locking up system so reverted that code to old.
+
+v.0.9.6.3:
+- Redone Addon_Toggle a little as there are still bugs
+
+v.0.9.6.2:
+- Bug fix for misplaced variable in Addon_Toggle
+
+v.0.9.6.1:
+- Added Check_Repo() function to check if the xml links can be resolved
+- Fixed bug in Toggle_Addons, was failing to enable recently unzipped
+- Updated some missing info from the README file
+
+v.0.9.6:
+- Added Requirements function to return min and max requirements for kodi dependencies
+- Added Highest_Version function for returning highest version in a list
+- Improved some video.py functionality, thanks to midraal
+- Fixed Adult_Toggle, had had a typo in there which was occasionally causing an error
+- Fixed exception in adult toggele for when no id can be found natively
+- Fixed the strings so error message works for run of online code when in debug mode
+- Removed Install_Addon due to high server loads at NaN. This is hopefully temporary
+but at this moment in time the future of this function is uncertain.
+
+v.0.9.5:
+- Fixed bug in sleep_if_function_active, was closing dialog busy
+
+v.0.9.4:
+- Added new Adult_Toggle function
+- Improved Adult_Genre so it can take a custom url, no longer NaN dependant.
+
+v.0.9.3.1:
+- Fixed indentation error in database module
+
+v.0.9.3:
+- fixed a bug with remove_from_table
+- added reset_db function to use when running into threading error with sqlite
+- Added exceptions for built-in python libraries, no need to attempt enabling those
+- Fixed Main() commands which had broken due to cleaning of newlines and tabs
+- Fixed
+
+v.0.9.2:
+- Added Select_Dialog function to allow user to select from multiple values.
+- Fixed the Open_URL function so it works correctly with User_Info again.
+- Changed Open_URL to return False in case of failed attempt (was returning a test string). Will also print details of the bad url to log if addon debugging mode enabled.
+
+v.0.9.1:
+- Added option to send through params in Open_URL (see README for full info)
+- Added Delete_Cookies function
+- Fixed bug in Addon_Settings where it wasn't possible to set a blank string
+- Added an optional error message if Extract fails
+
+v.0.9:
+- Fixed db query example, wasn't working on pre-Krypton
+- Added exception for Get_ID, only works on certain platforms so returns False if not supported on current os.
+
+v.0.8.9:
+- Added extra logging for Main runcode
+- Added proper exceptions if URL could not be opened
+
+v.0.8.8:
+- Removed rogue ampersand in addon.xml
+
+v.0.8.7:
+- Added OK_Dialog function
+- Added YesNo_Dialog function
+- Added Compress function - this will probably end up replacing Archive_Tree longer term
+- Suppressed error popup message when online code fails
+
+v.0.8.6:
+- Fixed logging in Open_URL, was logging everything by default
+
+v.0.8.5:
+- Fixed bad error reporting in addon_enable
+- Fixed example code for Sleep_If_Playback_Active function
+
+v.0.8.4:
+- Added extra json query attempt for addon_enable
+
+v.0.8.3:
+- Fixed Timestamp issue in Addon_Genre function
+
+v.0.8.2:
+- Added Sleep_If_Playback_Active() function, this pauses code until playback stops
+
+v.0.8.1:
+- Fixed the Open_Settings, wasn't opening the caller id correctly
+
+v.0.8:
+- Improved Open_URL. Added cookie, header, auth and timeout support
+- Edited Default_Setting function so it can return a dictionary of all defaults
+- Added the ability to send through various params to Add_Dir
+- Added new routing (thanks to midraal for PR)
+- Added Remove_From_Table function
+- Renamed Run_As_Kodi to Get_ID and changed function behaviour slightly
+- Split up add-on based functions into new addon module
+- Added some more documentation to the README
+
+v.0.7.5:
+- Rezipped, had used 7zip think that caused problems.
+
+v.0.7.4:
+- Fixed download dialog not auto-closing once complete. Last push didn't work correctly
+
+v.0.7.3:
+- Fixed the download function, wasn't automatically closing dialog once complete.
+
+v.0.7.2:
+- Tidied up the getSetting functions.
+- Fixed Create_Paths function.
+- Fixed the tutorials on Windows platforms, required url sending through as urlencoded then unencoded.
+
+v.0.7.1:
+- Added Run_As_Kodi() function which hopefully should fix Android Fresh_Install()
+- Improved Open_Settings(), can now focus on a specific item and also send an automated click on the focused item.
+
+v.0.7:
+- Added Addon_Info() function to return various built in add-on values.
+- Added Addon_Setting() function to set/retrieve an add-on setting.
+- Added new Add-on section to the README.
+- Added subprocess import for fresh_install.
+- Typo in Android check for fresh_install, hopefully fixed.
+- Added Addon_Install() function to install add-ons.
+- Added Addon_Genre() function to return a dict of all specific genre type add-ons found at the Add-on Portal.
+- Fixed unicode issue when sending through list of addons to Toggle_Addons()
+
+v.0.6:
+- Added ability to run another plugin via Add_Dir, just send mode as a blank string.
+- Added System() function which allow easy access to various xbmc commands.
+- Cleaned up the README file.
+- Added ASCII_Check() function, will return a list of non-ASCII filenames found.
+- Added md5_check() function to return md5 value of file or folder.
+- Added Android functions for opening, uninstalling and listing installed apps.
+- Added Android function for opening into a specific apps settings.
+- Added Force_Close() function
+- Added Running_App() function which returns the name of current running app.
+- Added Fresh_Install() function which will wipe your current install.
+- Added Delete_Crashlogs() function.
+- Improved Delete_Folders function, can now send through an ignore list for
+file/folder paths you don't want removed.
+- Added Sleep_If_Function_Active() which will sleep until the previously called
+function has completed.
+- Renamed Sleep_If_Active() to Sleep_If_Window_Active()
+- Fixed Open_URL function which was broken in last push
+- Added new Caller() function
+- Changed the way the addon id is pulled so it works when called from scripts.
+- Added requests dependency which had somehow been ommitted
+- Fixed up the Add_Dir function so it's now showing correct infolabels (hopefully!)
+- Added auto infolabel generation to the Play_Video function (thanks midraal)
+- Re-coded Add_Dir so it now takes context menus and dictionaries for params
+- Cleaned up and improved a lot of the guides
+- Fixed Play_Video so it also works with audio
+- Improved Grab_Log, can now filter and also have clean formatted text
+- Added Notify (A simple notification popup)
+- Added Sleep_If_Active (pauses code until a specific window closes)
+- Added Move_Tree (Moves directory from a to b)
+- Added Toggle_Addons (enables/disables add-ons)
+- Added various database functions (thanks to midraal), details below:
+-- Add_To_Table (adds a row to the table stored in your addons addon_data folder)
+-- Create_Table (creates a table in your addons db)
+-- Get_All_From_Table (grabs all results from a specific table in your db)
+-- Get_From_Table (grabs specific results based on a query on your db)
+-- Remove_From_Table (removes specific results based on a query on your db)
+
+
+v.0.4:
+- Fixed Browse_To_File
+- Moved Open_URL into web module, made more sense there
+- Added Validate_Link (Checks if url sends back a code 200 - in other words it's live)
+- Added DB_Query (A simple SQLite Db tool, execute any SQL command)
+- Added Get_Extension (Returns the extension type of an online file)
+- Added Dependency_Check (Returns all dependencies required for an addon and optionally all sub-dependencies)
+
+
+v.0.1: Initial release
