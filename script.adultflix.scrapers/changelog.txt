@@ -1,4 +1,9 @@
+Version: 1.1.0
+- Updated several scrapers
+- Adapted for librarypack utilization
+- Added Python 3 compatibility with the help of python-six and kodi-six (untested)
+
 Version: 1.0.0
 
---- Forked from XXX-O-DUS Scrapers 1.00.026 (Respect to Echo Coder)
---- Migrated to ResolveURL (Powered by jsergio123)
+- Forked from XXX-O-DUS Scrapers 1.00.026 (Respect to Echo Coder)
+- Migrated to ResolveURL (Powered by jsergio123)

@@ -1,4 +1,11 @@
-Version: 1.0.0
+~ Version 1.1.0
+- Adapted for librarypack utilization
+- Tweaks to imports on default.py (url_dispatcher)
+- Added Python 3 compatibility with the help of python-six and kodi-six (untested)
+- Various bug fixes
 
---- Forked from XXX-O-DUS v3.00.030 (Respect to Echo Coder)
---- Migrated to ResolveURL (Powered by jsergio123)
+
+~ Version 1.0.0
+
+- Forked from XXX-O-DUS v3.00.030 (Respect to Echo Coder)
+- Migrated to ResolveURL (Powered by jsergio123)

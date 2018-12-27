@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.adultflix" 
-	     name="AdultFlix" 
-	     version="1.0.0" 
-	     provider-name="TV ADDONS">
-  <requires>
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.echo"/>
-    <import addon="script.adultflix.artwork"/>
-    <import addon="script.adultflix.scrapers"/>
-    <import addon="script.module.resolveurl"/>
-    <import addon="script.module.resolveurl.xxx"/>
-    <import addon="script.module.pyxbmct"/>
-	<import addon="script.module.requests" />
-    <!--<import addon="repository.tvaxxx"/>-->
+<addon id="plugin.video.adultflix" name="AdultFlix" version="1.1.0" provider-name="tvaddons">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.librarypack"/>
+        <import addon="script.adultflix.artwork"/>
+        <import addon="script.adultflix.scrapers"/>
+        <import addon="script.module.resolveurl"/>
+        <import addon="script.module.resolveurl.xxx"/>
+        <import addon="script.module.pyxbmct"/>
+        <import addon="script.module.requests" />
+        <import addon="script.module.kodi-six" version="0.0.2"/>
+		<import addon="script.module.six" version="1.11.0"/>
+        <!--<import addon="repository.tvaxxx"/>-->
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension> 
+  <extension point="xbmc.service" library="service.py" start="startup"/>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en"></summary>
+    <reuselanguageinvoker>false</reuselanguageinvoker>
+    <summary lang="en">AdultFlix is the most powerful adult addon for Kodi.</summary>
     <description lang="en">AdultFlix is the most powerful adult addon for Kodi. Hundreds of thousands of XXX videos from endless 18+ sources. This Kodi addon is for adult audiences only!
 
 Scraped sources include: chaturbate, collectionsofbestporn, daftporn, drtuber, eightmuses, eporner, fourtube, fuqer, girlfriendvideos, gotporn, hclips, heavyr, hentaiheaven, justpornotv, madthumbs, motherless, nxgx, overthumbs, pandamovie, perfectgirls, porn00, porn.com, porndig, pornfun, pornhd, pornhub, pornilly, pornxs, redtube, sexkino_movies, sexvr, spankbang, spreadporn, streamingporn, 3movs, tube8, tubepornclassic, voyeurhit, vporn, vrsmash, watchmygf, watchxxxfree, xhamster, xnxx, xtheatre, xvideos, youjizz, youporn, and zzcartoon.</description>
     <disclaimer lang="en">This Kodi addon contains age-restricted materials. By entering this Kodi addon, you swear under penalty of perjury that you are over the age of 18, and over the age of majority in the location from where you are accessing this Kodi addon.  If you are under the age of 18 years, or under the age of majority in the location from where you are accessing this Kodi addon, you do not have authorization or permission to use.</disclaimer>
-    <language></language>
+    <language>en</language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <website>https://github.com/tvaddonsco/plugin.video.adultflix</website>
     <forum>https://www.tvaddons.co/forums</forum>
+      <news>~ Version 1.1.0
+- Adapted for librarypack utilization
+- Tweaks to imports on default.py (url_dispatcher)
+- Added Python 3 compatibility with the help of python-six and kodi-six (untested)
+- Various bug fixes</news>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
